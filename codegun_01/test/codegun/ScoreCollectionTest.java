@@ -8,7 +8,15 @@
 ***/
 package codegun;
 
-@FunctionalInterface
-public interface Scoreable {
-   int getScore();
+import org.junit.*;
+
+import static org.junit.Assert.*;
+
+public class ScoreCollectionTest { //(3)
+
+   @Test                           //(4)
+   public void test() {            //(5)
+      fail("Not yet implemented"); //(6)
+   }
+
 }
